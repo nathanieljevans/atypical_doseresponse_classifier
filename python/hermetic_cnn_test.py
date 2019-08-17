@@ -30,9 +30,9 @@ from sklearn.metrics import confusion_matrix
 
 import random
 
-model = load_model('./models/best_model.159-55.24.h5')
+model = load_model('../best_model/best_model.159-55.24.h5')
 
-with open('./test_data.pkl', 'rb') as f:
+with open('../data/test_data.pkl', 'rb') as f:
     test = pkl.load(f)
 
 DOSES = np.array([0.01, 0.04, 0.12, 0.37, 1.11, 3.33, 10.0])
