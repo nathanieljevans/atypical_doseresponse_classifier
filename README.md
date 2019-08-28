@@ -9,7 +9,7 @@ Data for training and testing the CNN can be found [here](https://drive.google.c
 
 Details on how these metrics were caculated can be found in `hermetic_cnn_test.py`.  
 
-> average observation dose point classification error: **89.7%** 
+> average observation dose point classification accuracy: **89.7%** 
 
 > dose point classification specificity: **73.9%** 
 
