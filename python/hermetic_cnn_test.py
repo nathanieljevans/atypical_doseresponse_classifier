@@ -30,7 +30,7 @@ from sklearn.metrics import confusion_matrix
 
 import random
 
-model = load_model('../best_model/best_model.159-55.24.h5')
+model = load_model('./best_model.159-55.24.h5')
 
 with open('../data/test_data.pkl', 'rb') as f:
     test = pkl.load(f)

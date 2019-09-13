@@ -2,4 +2,5 @@
 
 /data/*
 
-/python/models/*
+/python/regression/models/*
+/python/classifier/models/*
